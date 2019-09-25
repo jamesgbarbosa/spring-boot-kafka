@@ -36,7 +36,7 @@ public class ProductService {
 //                LOGGER.info(ColorConstant.ANSI_PURPLE+ "Saved!" + record.toString());
 //            } else {
 //                throw new SQLException();
-            }
+//            }
         } catch (Exception ex) {
             LOGGER.error(ColorConstant.ANSI_RED+"Saving to DB Failed");
             throw new SQLException(ex.getMessage());
