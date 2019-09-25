@@ -1,3 +1,6 @@
+Download Kafka server and H2 database 
+
+
 **1. Run zookeeper and kafka server** <br>
 zookeeper-server-start.bat zookeeper.properties <br>
 kafka-server-start.bat server.properties
